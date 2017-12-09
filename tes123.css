@@ -1,0 +1,224 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:url(images/head-bg.gif); background-repeat: repeat-x;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#666;
+
+}
+
+.container {
+	width:950px;
+	margin:auto;
+	}
+	
+	/*header*/
+header {
+	height:120px;
+	overflow:hidden;
+	margin-bottom:10px;
+	}
+header .headerleft{
+	width:200px;
+	float:left;
+	margin: 25px 0 0 10px;
+	}
+header .headerright{
+	width:575px;
+	float:right;
+	}
+.headerright ul{
+	list-style:none;
+	}
+.headerright ul li{
+	float:left;
+	}
+.headerright ul li a{
+	line-height:120px;
+	color:#FFF;
+	text-decoration:none;
+	padding:0 20px;
+	display:block;
+	}
+.headerright ul li a:hover {
+	background-color:#F2191A;
+	}
+	
+/*slider*/
+/*product*/
+.product {
+	overflow:hidden;
+	margin-top:9px;
+	text-align:center;
+}
+
+.product a:hover {
+	background-color:#CCC;
+}
+
+.product .product1 {
+	width:310px;
+	float:left;
+	margin-right:10px;
+}
+.product .product2 {
+	width:310px;
+	float:right;
+}
+
+.product .producttitle {
+	background-color: #F2191A;
+	color: #FFF;
+	padding: 28px 12px 12px 12px;
+	margin-bottom: 12px;
+}
+
+.product .producttitle h1{
+	font-size:28px;
+}
+
+/*BANNER*/
+.banner{
+	margin: 23px 0 ;
+}
+
+
+/*ARTICLE*/
+article {
+	overflow: hidden;
+}
+
+
+article h2 {
+	margin-bottom: 10px;
+}
+
+/*ARTICLE LEFTTTTTTTT*/
+article .articleleft {
+	width: 450px;
+	float:left;
+}
+.articleleft a:hover {
+	background-color:#CCC;
+}
+
+article .articleleft .lefttop{
+	overflow: hidden;
+}
+
+article .articleleft .lefttop ul{
+	width: 225px;
+	float: left;
+}
+
+article .articleleft .lefttop li{
+	list-style: inside;
+	list-style-image: url(images/marker2.png);
+	margin-bottom: 10px;
+}
+article .articleleft .lefttop a{
+	text-decoration: none;
+	font-variant: small-caps;
+	color: #666;
+	font-weight: bold;
+	position: relative;
+	top: -3px;
+}
+
+article .articleleft .lefttop a:hover{
+	text-decoration: underline;
+}
+
+
+article .articleleft .leftbottom{
+	
+}
+
+
+/*ARTICLE RIGHTTTTTTT*/
+article .articleright {
+	width: 450px;
+	float :right;
+}
+
+article .articleright .program{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+article .articleright .program img {
+	float: left;
+	width: 52px;
+}
+
+article .articleright .programitem {
+	float: right;
+	width: 385px;
+}
+
+article .articleright .programitem a {
+	color: #333;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*GENERAL CLASSES*/
+p {
+	font-size: 17px;
+	line-height: 22px;
+	margin-bottom: 10px; 
+}
+
+.read {
+	background-color: #999;
+	border-radius: 0px;
+	color: white;
+	padding: 8px 40px ;
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+/*FOOOOOTTEERRRRRRR*/
+
+footer {
+	overflow: hidden;
+	border-top:5px solid #ccc;
+	font-size: 12px;
+	height: 70px;
+	margin: 20px 0 50px;
+}
+
+.footerleft{
+	width:200px;
+	float:left;
+	margin-top: 15px;
+	}
+
+.footerright{
+	width:575px;
+	float:right;
+	}
+
+.footerright ul{
+	list-style:none;
+	}
+.footerright ul li{
+	float:left;
+	}
+
+.footerright ul li a{
+	line-height:70px;
+	color:red;
+	text-decoration:none;
+	padding: 0 20px;
+	display:block;
+	}
+
+.footerright ul li a:hover {
+	text-decoration: underline;
+	}
